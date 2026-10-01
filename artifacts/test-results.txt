@@ -1,0 +1,29 @@
+
+> accord-agent-exchange-prototype@0.1.0 test
+> node --test --test-concurrency=1 test/*.test.mjs
+
+✔ owned development chain starts with no unlocked accounts, funds explicit wallets, and releases its port (179.128542ms)
+✔ occupied chain port is rejected without altering or closing the original chain (171.505416ms)
+✔ dataset encoding is explicit, deterministic, and bounded (598.698875ms)
+✔ valid quote has identical signed digest and validation identifier (6.005625ms)
+✔ validation rejects signature tampering, request alteration, wrong buyer, seller, chain, contract and service (4.356791ms)
+✔ strict numeric encodings prevent ambiguous wire amounts, expiry and network identifiers (1.947959ms)
+✔ contract independently rejects wrong signature, signing domain, buyer, expiry and underpayment (261.11025ms)
+✔ gas, total and payment budgets reject before any transaction is submitted (331.978583ms)
+✔ actual EVM payment moves exact value, emits bound receipt, and duplicate concurrent SDK calls charge once (426.874041ms)
+✔ paid quote remains recoverable after expiry, but expired unpaid and altered paid offers are rejected (417.002125ms)
+✔ a wrong wallet cannot purchase another buyer’s signed quote (17.180167ms)
+✔ payment helper refuses public chain identifiers before signing or sending (2.681ms)
+✔ unpaid quote expiry cannot be bypassed by supplying an old caller clock (77.000583ms)
+✔ concurrent distinct purchases serialize wallet nonces and settle both quotes (406.395541ms)
+✔ recipient transfer failure rolls back the paid marker and allows a later retry (374.780958ms)
+✔ payment and verification cannot use different providers with the same claimed network (3.081167ms)
+✔ separate agents exchange, enforce budgets, reject tampering and safely recover delivery (8089.185083ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12717.066417

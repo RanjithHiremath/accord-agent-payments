@@ -1,0 +1,254 @@
+{
+  "SRC-0001": {
+    "title": "User goal: agents exchanging money without a central server",
+    "kind": "conversation",
+    "locator": "This project chat: user message beginning \u201cNo. What I want you to build is a protocol\u2026\u201d",
+    "consulted_on": "2026-09-30",
+    "scope": "User requirement; not evidence that such a system has been built."
+  },
+  "SRC-0002": {
+    "title": "User instruction: research both settlement approaches",
+    "kind": "conversation",
+    "locator": "This project chat: response \u201cResearch both before choosing\u201d to the existing-network versus new-blockchain question.",
+    "consulted_on": "2026-09-30",
+    "scope": "Direct instruction to investigate both approaches, not approval of either."
+  },
+  "SRC-0003": {
+    "title": "User instruction: connected and self-contained logs",
+    "kind": "conversation",
+    "locator": "This project chat: messages beginning \u201cThroughout the entire project maintain structured logs\u2026\u201d and \u201cThe log should be written so that when you read it without any context\u2026\u201d",
+    "consulted_on": "2026-09-30",
+    "scope": "Requires named, linked records of topics and decisions, reasons, alternatives, references, and local definitions."
+  },
+  "SRC-0004": {
+    "title": "x402 official repository",
+    "kind": "web",
+    "locator": "https://github.com/x402-foundation/x402",
+    "consulted_on": "2026-09-30",
+    "scope": "Read the overview, production facilitator choices, and payment flow. Source changes over time; no implementation tested here."
+  },
+  "SRC-0005": {
+    "title": "L402 official documentation",
+    "kind": "web",
+    "locator": "https://docs.lightning.engineering/the-lightning-network/l402",
+    "consulted_on": "2026-09-30",
+    "scope": "Read the request, invoice, payment proof, and token flow."
+  },
+  "SRC-0006": {
+    "title": "Lightning liquidity explained",
+    "kind": "web",
+    "locator": "https://docs.lightning.engineering/the-lightning-network/liquidity/understanding-liquidity",
+    "consulted_on": "2026-09-30",
+    "scope": "Reviewed inbound capacity, outbound capacity, channel allocation, and peer availability."
+  },
+  "SRC-0007": {
+    "title": "Ethereum nodes and clients",
+    "kind": "web",
+    "locator": "https://ethereum.org/developers/docs/nodes-and-clients",
+    "consulted_on": "2026-09-30",
+    "scope": "Consulted for independently operated nodes as an alternative to a required hosted gateway."
+  },
+  "SRC-0008": {
+    "title": "Machine Payments Protocol overview",
+    "kind": "web",
+    "locator": "https://mpp.dev/protocol",
+    "consulted_on": "2026-09-30",
+    "scope": "Retrieved through Agent Reach Exa search; direct built-in web opening returned an error. Protocol overview covered challenges, credentials, methods, and receipts."
+  },
+  "SRC-0009": {
+    "title": "Agent Payments Protocol specification",
+    "kind": "web",
+    "locator": "https://ap2-protocol.org/ap2/specification/",
+    "consulted_on": "2026-09-30",
+    "scope": "Consulted the specification on authorization mandates and deterministic validation; no integration tested."
+  },
+  "SRC-0010": {
+    "title": "Circle USDC terms",
+    "kind": "web",
+    "locator": "https://www.circle.com/legal/usdc-terms",
+    "consulted_on": "2026-09-30",
+    "scope": "Consulted the issuer blocklisting provisions to assess centralized asset controls, not to provide legal advice."
+  },
+  "SRC-0011": {
+    "title": "Ethereum ERC-20 token standard",
+    "kind": "web",
+    "locator": "https://ethereum.org/developers/docs/standards/tokens/erc-20/",
+    "consulted_on": "2026-09-30",
+    "scope": "Consulted for tokens maintained by contracts on an existing chain."
+  },
+  "SRC-0012": {
+    "title": "Cosmos SDK official repository",
+    "kind": "web",
+    "locator": "https://github.com/cosmos/cosmos-sdk",
+    "consulted_on": "2026-09-30",
+    "scope": "Consulted the framework for customizable blockchains. A framework is not a supplied independent validator network."
+  },
+  "SRC-0013": {
+    "title": "CometBFT introduction and voting power",
+    "kind": "web",
+    "locator": "https://docs.cosmos.network/cometbft/latest/docs/introduction/intro",
+    "consulted_on": "2026-09-30",
+    "scope": "Read application/consensus separation, consensus overview, and stake section clarifying voting power."
+  },
+  "SRC-0014": {
+    "title": "Bitcoin whitepaper",
+    "kind": "web",
+    "locator": "https://bitcoin.org/bitcoin.pdf",
+    "consulted_on": "2026-09-30",
+    "scope": "Consulted the proof-of-work and incentive design as a comparison for launching a new network."
+  },
+  "SRC-0015": {
+    "title": "OP Stack architecture",
+    "kind": "web",
+    "locator": "https://docs.optimism.io/op-stack/architecture",
+    "consulted_on": "2026-09-30",
+    "scope": "Consulted the roles of parent settlement, transaction processing, and supporting infrastructure for a rollup."
+  },
+  "SRC-0016": {
+    "title": "Ethereum oracle documentation",
+    "kind": "web",
+    "locator": "https://ethereum.org/developers/docs/oracles/",
+    "consulted_on": "2026-09-30",
+    "scope": "Consulted the boundary between on-chain execution and information from outside the chain."
+  },
+  "SRC-0017": {
+    "title": "Agent Reach live search result in this session",
+    "kind": "tool_result",
+    "locator": "This project chat: Agent Reach doctor, restricted Exa request, and network-enabled Exa retry on 2026-09-30.",
+    "consulted_on": "2026-09-30",
+    "scope": "Doctor found configuration but did not verify Exa. Initial request failed to resolve mcp.exa.ai; retry with network access returned nonempty AP2 and MPP search results."
+  },
+  "SRC-0018": {
+    "title": "Recursive decision ledger skill used for log design",
+    "kind": "local_file",
+    "locator": "~/.agents/skills/ecc/recursive-decision-ledger/SKILL.md",
+    "consulted_on": "2026-09-30",
+    "scope": "Consulted append-only JSONL, human-readable summaries, evidence, option marks, and promotion gates; no optimization trials are implied."
+  },
+  "SRC-0019": {
+    "title": "User delegation and local website request",
+    "kind": "conversation",
+    "locator": "This project chat: \u201cOkay I\u2019m sleeping now. You are free to take any decisions\u2026\u201d and the instruction to create a locally hosted marketing website.",
+    "scope": "Authorizes development choices, local implementation, and a marketing site; this is not evidence of a completed public network.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0020": {
+    "title": "User naming and installation requirements",
+    "kind": "conversation",
+    "locator": "This project chat: the naming critique and \u201cIf you need any libraries or anything else that needs to be installed, you\u2019re free to install them also for this development environment.\u201d",
+    "scope": "Requires understandable names and authorizes development dependency installation.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0021": {
+    "title": "Kalidasa writing skill",
+    "kind": "local_file",
+    "locator": "~/.agents/skills/kalidasa/SKILL.md",
+    "scope": "Read the full skill. Applied reader diagnosis, definitions before reliance, concrete examples, and claims tied to evidence. No claim of increased model intelligence or guaranteed writing quality.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0022": {
+    "title": "Local implementation contract",
+    "kind": "local_file",
+    "locator": "IMPLEMENTATION.md in this project folder",
+    "scope": "Records the initial integration boundaries and interface shared by the payment, runtime, and website work. This document describes intended behavior, not test results.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0023": {
+    "title": "EIP-712 structured-data signing standard",
+    "kind": "web",
+    "locator": "https://eips.ethereum.org/EIPS/eip-712",
+    "scope": "Read domain separation, typed fields, and the explicit statement that the standard does not itself provide replay protection.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0024": {
+    "title": "Current contract and protocol implementation",
+    "kind": "local_file",
+    "locator": "contracts/AccordPayments.sol, lib/protocol.mjs, and PROTOCOL.md",
+    "scope": "Reviewed actual code for quote binding, signature encoding, fee limits, payment recording, and receipt recovery. See the tests for observed results.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0025": {
+    "title": "Full local automated test output",
+    "kind": "local_file",
+    "locator": "artifacts/test-results.txt",
+    "scope": "Saved full run: 17 tests passed, zero failed, using actual temporary Anvil chains and separate seller/buyer processes.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0026": {
+    "title": "Dependency advisory response",
+    "kind": "local_file",
+    "locator": "artifacts/dependency-audit.json",
+    "scope": "Final npm audit response reports zero known vulnerabilities. Initial Ganache-based tree reported 36; replacing it and updating dependencies removed those reported advisories. Not an independent software audit.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0027": {
+    "title": "Browser acceptance observations",
+    "kind": "local_file",
+    "locator": "artifacts/validation-summary.json, artifacts/accord-desktop.png, artifacts/accord-mobile.png",
+    "scope": "Observed successful payment, retry, budget rejection, invalid-input message, connected record selection, and desktop/mobile layouts through the in-app browser.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0028": {
+    "title": "Independent code review and disposable-chain probes",
+    "kind": "tool_result",
+    "locator": "This project chat: independent protocol_requirements review and development-chain regression tests on 2026-09-30. Findings are documented in SECURITY.md and VALIDATION.md.",
+    "scope": "Reproduced mixed provider identity, occupied-port startup, and raw Anvil foreign Host/Origin administration. First two fixed and regression-tested; raw local administration remains an explicit development limitation.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0029": {
+    "title": "Anvil executable and current installation",
+    "kind": "tool_result",
+    "locator": "Project-local @foundry-rs/anvil --version and --help; package.json and package-lock.json",
+    "scope": "Verified native Anvil 1.7.1 startup on this machine, chain ID 31337, no unlocked accounts, and explicit development funding.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0030": {
+    "title": "Agent Reach version check",
+    "kind": "tool_result",
+    "locator": "Agent Reach check-update run in this project session on 2026-09-30",
+    "scope": "Read-only check reported installed v1.5.0 as current; no update performed.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0031": {
+    "title": "x402 current public implementation",
+    "kind": "web",
+    "locator": "https://github.com/x402-foundation/x402",
+    "scope": "Verified open payment standard, existing implementations, and options to run a facilitator or self-facilitate.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0032": {
+    "title": "L402 current payment and access flow",
+    "kind": "web",
+    "locator": "https://docs.lightning.engineering/the-lightning-network/l402",
+    "scope": "Verified Lightning payment followed by proof-based access and existing Aperture implementation.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0033": {
+    "title": "Machine Payments Protocol specification",
+    "kind": "web",
+    "locator": "https://github.com/tempoxyz/mpp-specs",
+    "scope": "Verified machine-to-machine payment challenge, payment credential, resource access, and multiple payment methods.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0034": {
+    "title": "Agent Payments Protocol overview",
+    "kind": "web",
+    "locator": "https://ap2-protocol.org/",
+    "scope": "Verified focus on authorization, authenticity, accountability, and agent commerce.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0035": {
+    "title": "User authorization for public repository",
+    "kind": "conversation",
+    "locator": "Project conversation, September 30, 2026: user authorizes public push after clear naming and simple project explanation.",
+    "scope": "Authorizes publishing this project to the supplied GitHub account; development keys and personal environment files are not release material.",
+    "consulted_on": "2026-09-30"
+  },
+  "SRC-0036": {
+    "title": "Public release naming review and regression tests",
+    "kind": "local_file",
+    "locator": "CONTRIBUTING.md and artifacts/public-release-tests.txt",
+    "scope": "Reviewed naming in protocol, runtime, contract, tests, and website; clarified identifiers in five JavaScript modules and units in contract comments. All 17 regression tests passed after changes.",
+    "consulted_on": "2026-09-30"
+  }
+}

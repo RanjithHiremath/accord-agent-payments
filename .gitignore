@@ -1,0 +1,17 @@
+node_modules/
+.local/
+coverage/
+.DS_Store
+*.log
+
+# Local credentials and assistant state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.agents/
+.codex/
+.claude/
+AGENTS.md

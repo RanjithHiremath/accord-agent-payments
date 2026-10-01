@@ -1,0 +1,54 @@
+{
+  "recordedAt": "2026-09-30T06:12:52+00:00",
+  "scope": "Local development prototype using valueless Test ETH; no public-network or independent security audit.",
+  "automatedTests": {
+    "passed": 17,
+    "failed": 0,
+    "report": "artifacts/test-results.txt",
+    "areas": [
+      "signed offer and input validation",
+      "actual contract value transfer",
+      "payment and fee limits before submission",
+      "duplicate offer and concurrent purchase behavior",
+      "paid offer recovery after expiry",
+      "recipient transfer failure rollback",
+      "consistent provider binding",
+      "occupied port rejection without modifying existing chain",
+      "separate buyer and seller HTTP exchange",
+      "seller restart recovery",
+      "local HTTP request guards and private-file denial"
+    ]
+  },
+  "dependencyAdvisories": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "browserChecks": {
+    "completed": [
+      "successful exchange and matching dataset summary",
+      "retry recovers the same transaction",
+      "budget rejection produces no payment receipt",
+      "invalid negative number rejected",
+      "decision search and standalone Lightning definitions",
+      "desktop landing page at 1440px",
+      "phone landing page and decision network at 390px without document overflow",
+      "stable Run exchange button name after result rendering"
+    ],
+    "limitations": [
+      "not a comprehensive assistive-technology audit",
+      "no public network used",
+      "no multiple-independent-operator trial"
+    ]
+  },
+  "knownBoundaries": [
+    "Raw Anvil administration API is trusted local development infrastructure, not protected by website Host/Origin checks.",
+    "Funds and chain history disappear on full launcher restart.",
+    "Paid offers are bearer delivery credentials.",
+    "Budgets are per invocation, not durable shared allowances.",
+    "Payment precedes delivery; no automatic refund or escrow."
+  ]
+}

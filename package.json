@@ -1,0 +1,22 @@
+{
+  "name": "accord-agent-exchange-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local reference prototype for direct, bounded agent-to-agent payments.",
+  "scripts": {
+    "start": "node runtime/start.mjs",
+    "test": "node --test --test-concurrency=1 test/*.test.mjs",
+    "demo": "node runtime/buyer.mjs",
+    "logs": "python3 scripts/decision_log.py",
+    "check:logs": "python3 scripts/decision_log.py --check"
+  },
+  "dependencies": {
+    "@foundry-rs/anvil": "1.7.1",
+    "ethers": "6.17.0",
+    "solc": "0.8.37"
+  },
+  "overrides": {
+    "tmp": "0.2.7"
+  }
+}
