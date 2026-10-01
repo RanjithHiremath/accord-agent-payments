@@ -37,6 +37,7 @@ Generated from the append-only ledger. Proposals are not accepted architecture.
 | [DEC-0014 — Accept the local prototype milestone](records/DEC-0014-local-milestone-handoff.md) | accepted | I am writing this log to distinguish the completed local deliverable from the broader public-network ambition. |
 | [DEC-0015 — Recommend a public research release with explicit existing-protocol comparisons](records/DEC-0015-public-research-release-and-existing-protocol-overlap.md) | proposed | I am writing this log to decide how to describe and potentially publish Accord honestly in light of existing work. |
 | [DEC-0016 — Publish Accord with clear names and a reproducible research scope](records/DEC-0016-publish-accord-agent-payments-research-repository.md) | accepted | I am writing this log to record the public release authorization, repository naming, readable code conventions, and packaging boundary. |
+| [OPS-0003 — Verify the public Accord repository and initial release](records/OPS-0003-verified-public-github-publication.md) | tested | I am writing this log to record the actual publication result rather than leave release intent as the final project status. |
 
 ## Relationship map
 
@@ -75,6 +76,7 @@ flowchart TD
     DEC_0014["DEC-0014: Accept the local prototype milestone (accepted)"]
     DEC_0015["DEC-0015: Recommend a public research release with explicit existing-protocol comparisons (proposed)"]
     DEC_0016["DEC-0016: Publish Accord with clear names and a reproducible research scope (accepted)"]
+    OPS_0003["OPS-0003: Verify the public Accord repository and initial release (tested)"]
     DEC_0002 -->|implements| DEC_0001
     DEC_0003 -->|depends_on| DEC_0001
     RES_0001 -->|depends_on| DEC_0001
@@ -154,4 +156,5 @@ flowchart TD
     DEC_0016 -->|supersedes| DEC_0015
     DEC_0016 -->|depends_on| DEC_0009
     DEC_0016 -->|informed_by| DEC_0014
+    OPS_0003 -->|implements| DEC_0016
 ```

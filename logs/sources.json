@@ -250,5 +250,12 @@
     "locator": "CONTRIBUTING.md and artifacts/public-release-tests.txt",
     "scope": "Reviewed naming in protocol, runtime, contract, tests, and website; clarified identifiers in five JavaScript modules and units in contract comments. All 17 regression tests passed after changes.",
     "consulted_on": "2026-09-30"
+  },
+  "SRC-0037": {
+    "title": "Verified GitHub publication",
+    "kind": "tool_result",
+    "locator": "https://github.com/RanjithHiremath/accord-agent-payments",
+    "scope": "GitHub reported PUBLIC visibility and main as default branch. Remote main matched initial release commit 5c3fedce39ebec93d33efcdae459af0ef08a9452. Reviewed 72 staged files; no configured credential-pattern or local private-key matches were detected.",
+    "consulted_on": "2026-09-30"
   }
 }

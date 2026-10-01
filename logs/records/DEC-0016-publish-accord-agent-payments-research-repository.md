@@ -67,6 +67,7 @@ Protocol fields change, a real-network adapter is added, or external contributor
 - **supersedes** → [DEC-0015 — Recommend a public research release with explicit existing-protocol comparisons](DEC-0015-public-research-release-and-existing-protocol-overlap.md)
 - **depends_on** → [DEC-0009 — Require names that explain their purpose](DEC-0009-clear-domain-names-and-output-labels.md)
 - **informed_by** → [DEC-0014 — Accept the local prototype milestone](DEC-0014-local-milestone-handoff.md)
+- ← **implements** from [OPS-0003 — Verify the public Accord repository and initial release](OPS-0003-verified-public-github-publication.md)
 
 ## How this conclusion was reached
 

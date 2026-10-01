@@ -80,3 +80,5 @@ does not claim wire compatibility with x402, L402, or AP2.
 - 2026-09-30: Rechecked existing x402, L402, Machine Payments Protocol, and Agent Payments Protocol work. Recommended a public research release with explicit comparisons; novelty is not established and nothing was published. See [publication recommendation](logs/records/DEC-0015-public-research-release-and-existing-protocol-overlap.md).
 
 - 2026-09-30: User authorized public publication. Prepared `RanjithHiremath/accord-agent-payments`, clarified role-specific names and the README, added contribution conventions and an MIT license, and reran all 17 tests successfully. See [release decision](logs/records/DEC-0016-publish-accord-agent-payments-research-repository.md).
+
+- 2026-09-30: Published and verified the public repository at https://github.com/RanjithHiremath/accord-agent-payments. Initial release commit: `5c3fedce39ebec93d33efcdae459af0ef08a9452`. Public source publication is complete; the website runtime remains local. See [publication verification](logs/records/OPS-0003-verified-public-github-publication.md).

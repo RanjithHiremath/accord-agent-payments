@@ -432,4 +432,16 @@ CONTRIBUTING.md and artifacts/public-release-tests.txt
 
 Reviewed naming in protocol, runtime, contract, tests, and website; clarified identifiers in five JavaScript modules and units in contract comments. All 17 regression tests passed after changes.
 
-Used by: [DEC-0016](records/DEC-0016-publish-accord-agent-payments-research-repository.md)
+Used by: [DEC-0016](records/DEC-0016-publish-accord-agent-payments-research-repository.md), [OPS-0003](records/OPS-0003-verified-public-github-publication.md)
+
+## SRC-0037
+
+**Verified GitHub publication**
+
+Type: tool_result · Consulted: 2026-09-30
+
+https://github.com/RanjithHiremath/accord-agent-payments
+
+GitHub reported PUBLIC visibility and main as default branch. Remote main matched initial release commit 5c3fedce39ebec93d33efcdae459af0ef08a9452. Reviewed 72 staged files; no configured credential-pattern or local private-key matches were detected.
+
+Used by: [OPS-0003](records/OPS-0003-verified-public-github-publication.md)
